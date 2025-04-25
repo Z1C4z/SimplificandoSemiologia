@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simplificando a Semiologia</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-theme="light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-stethoscope me-2"></i>
+        Simplificando Semiologia
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#videos">Vídeos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <button class="theme-toggle btn" onclick="toggleTheme()">
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="inicio">
+    <div class="container text-center">
+      <h1 class="hero-title display-4 fw-bold mb-4">Bem-vindo ao Simplificando a Semiologia</h1>
+      <p class="lead mb-4">Aprender semiologia médica nunca foi tão acessível!</p>
+      <a href="#videos" class="btn btn-light btn-lg px-4 me-2">
+        <i class="fas fa-play-circle me-2"></i>Assista nossos vídeos
+      </a>
+      <a href="#sobre" class="btn btn-outline-light btn-lg px-4">
+        <i class="fas fa-info-circle me-2"></i>Saiba mais
+      </a>
+    </div>
+  </section>
+
+  <main class="container">
+    <!-- About Section -->
+    <section class="my-5">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <p class="lead">O <strong class="text-primary">Simplificando a Semiologia</strong> é um projeto educacional gratuito, criado por estudantes e professores da Faculdade Atenas de Sete Lagoas, com o objetivo de facilitar o aprendizado da Semiologia Médica para estudantes e profissionais da área da saúde.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="sobre" class="my-5 py-4">
+      <h2 class="section-title">O que você vai encontrar por aqui?</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card p-4 text-center h-100">
+            <i class="feature-icon fas fa-video"></i>
+            <h4>Vídeos Didáticos</h4>
+            <p>Aulas práticas de exames físicos com linguagem simples e embasamento técnico.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card p-4 text-center h-100">
+            <i class="feature-icon fas fa-file-pdf"></i>
+            <h4>Resumos em PDF</h4>
+            <p>Materiais organizados de forma esquemática para facilitar a revisão.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card p-4 text-center h-100">
+            <i class="feature-icon fas fa-sync-alt"></i>
+            <h4>Conteúdo Atualizado</h4>
+            <p>Baseado nas melhores referências bibliográficas e práticas atuais.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card p-4 text-center h-100">
+            <i class="feature-icon fas fa-graduation-cap"></i>
+            <h4>Acesso Gratuito</h4>
+            <p>Conteúdo 100% gratuito para democratizar o ensino da semiologia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Target Audience -->
+    <section class="my-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h2 class="section-title">Para quem é o Simplificando a Semiologia?</h2>
+          <p class="lead">Se você é estudante de medicina, enfermagem, fisioterapia ou outro curso da área da saúde, ou mesmo um profissional buscando reciclagem, este espaço é para você.</p>
+          <p>Aqui, o conhecimento é compartilhado de forma colaborativa, inclusiva e prática.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Estudantes de medicina" class="img-fluid rounded shadow">
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission Statement -->
+    <div class="mission-statement my-5">
+      <p class="mb-0 fs-4 fst-italic">"Simplificando a Semiologia — Porque entender os sinais é o primeiro passo para cuidar melhor."</p>
+    </div>
+
+    <!-- Videos Section -->
+      <!-- Videos Section -->
+  <section id="videos" class="my-5 py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="section-title mb-0">Biblioteca de Vídeos</h2>
+      <button class="btn btn-accent" onclick="toggleOrder()">
+        <i class="fas fa-sort-amount-down-alt me-2"></i>Ordenar
+      </button>
+    </div>
+    
+    <p class="mb-4">Explore nossos vídeos, baixe os resumos gratuitos, e aprimore suas habilidades clínicas com quem também está nessa jornada de aprendizado!</p>
+    
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="list-group video-list" id="videoList">
+          <!-- Videos will be loaded here -->
+          <div class="text-center py-5">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Carregando...</span>
+            </div>
+            <p class="mt-3">Carregando vídeos...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-0">
+            <div class="player-container">
+              <iframe id="videoPlayer" src="" allowfullscreen></iframe>
+            </div>
+            <div class="p-4">
+              <h4 id="videoTitle" class="mb-3">Selecione um vídeo</h4>
+              <p id="videoDescription" class="mb-0">Clique em um vídeo na lista ao lado para assistir e ver sua descrição.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h5 class="mb-3">Simplificando a Semiologia</h5>
+          <p>Um projeto educacional para democratizar o ensino da semiologia médica.</p>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h5 class="mb-3">Links Rápidos</h5>
+          <ul class="list-unstyled">
+            <li><a href="#inicio" class="text-white">Início</a></li>
+            <li><a href="#sobre" class="text-white">Sobre</a></li>
+            <li><a href="#videos" class="text-white">Vídeos</a></li>
+            <li><a href="#contato" class="text-white">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="mb-3">Redes Sociais</h5>
+          <div class="d-flex justify-content-center gap-3">
+            <a href="#" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4 bg-light">
+      <p class="mb-0">&copy; 2023 Simplificando a Semiologia. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
